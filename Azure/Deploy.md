@@ -24,4 +24,5 @@ Uncomment this part from deploy.sh
 # fi
 
 
-
+## Resources
+[http://gregtrowbridge.com/deploying-a-bower-dependent-node-app-on-windows-azure/](http://gregtrowbridge.com/deploying-a-bower-dependent-node-app-on-windows-azure/)
