@@ -9,6 +9,7 @@
 Uncomment this part from deploy.sh
 
 
+```bash
  if [ -e "$DEPLOYMENT_TARGET/bower.json" ]; then
    cd "$DEPLOYMENT_TARGET"
    eval $NPM_CMD install bower
@@ -21,6 +22,7 @@ Uncomment this part from deploy.sh
    ./node_modules/.bin/gulp 
    cd - > /dev/null
  fi
+```
 
 ## Resources
 [http://gregtrowbridge.com/deploying-a-bower-dependent-node-app-on-windows-azure/](http://gregtrowbridge.com/deploying-a-bower-dependent-node-app-on-windows-azure/)
