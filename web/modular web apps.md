@@ -1,6 +1,14 @@
 
+Npm modules
 
-## yo-yo by max odgen.
+* yo-yo
+* hyperscript
+* hyperx
+* bel
+* mercury
+
+
+### yo-yo by max odgen.
 https://github.com/maxogden/yo-yo
 
 Tagged template literals
