@@ -1,0 +1,14 @@
+# Airpaste (npm)
+
+Este modulo permite crear streams usando multicastdns.
+echo "hello" | airpaste
+y desde otra maquina se escribe
+ airpaste
+
+En ese momento se recibe la informacion. Viendo el codigo
+veo que lo que se hace es crear una conexion tcp, y
+con el stream de la conexion se hace pipe. 
+
+Con el paquete de multicast-dns que creo @mafintosh
+se obtiene la informacion de la red, lo que se usa
+para establecer la conexion

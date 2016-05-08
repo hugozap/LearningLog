@@ -1,5 +1,10 @@
 # Cryptography with Nacl in the browswer
 
+This snippet uses tweetnacl. There's other popular
+version that is compiled with emscriptem (nacl-js)
+
+Following script can be compiled with browserify
+
 ```javascript
 var nacl = require('tweetnacl');
 var randombytes = require('randombytes');
